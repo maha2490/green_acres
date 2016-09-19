@@ -1,0 +1,21 @@
+{
+  "name": "green_acres",
+  "homepage": "https://github.com/maha2490/green_acres",
+  "authors": [
+    "Rachel Mahan <rachelm2490@gmail.com>"
+  ],
+  "description": "green acres lawncare website",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^4.2.0"
+  }
+}
