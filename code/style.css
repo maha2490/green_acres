@@ -1,1 +1,41 @@
-style.css
+/*style.css*/
+
+/* fonts */
+@font-face {
+    font-family: brownShoes;
+    src: url(http://www.dafont.com/brown-shoes.font);
+}
+
+img{
+	display: block;
+	width: 100%;
+}
+
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.clearfix:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+#container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#main_nav nav ul li{
+	float: right;
+	padding-left: 10%;
+	list-style: none;
+	font-family: brownShoes;
+	color: #FA824C;
+    font-size: 125%;
+    letter-spacing: 0.5px;
+    padding-right: 3%;
+    box-sizing: border-box;
+}
