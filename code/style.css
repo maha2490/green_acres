@@ -26,22 +26,28 @@ img{
 }
 
 /*everything else*/
-.tagline {
-	font-family:'Lato', sans-serif;
-	color: #fff;
-	position: absolute; 
-    top: 130%;
-    left: 36%; 
-    width: 100%; 
+#main_nav {
+	background-color: rgba(255, 255, 255, 0.9);	
+	position: absolute;
+    width: 98vw;
 }
 #main_nav nav ul li{
+	font-family:'Lato', sans-serif;
 	float: right;
-	padding-left: 10%;
+	padding-left: 3%;
 	list-style: none;
-	font-family: brownShoes;
-	color: #FA824C;
+	/*font-family: brownShoes;*/
+	color: #E66600;
     font-size: 125%;
     letter-spacing: 0.5px;
     padding-right: 3%;
     box-sizing: border-box;
+}
+#background_image {
+	margin-top: -0.6%;
+}
+.tagline {
+	font-family:'Lato', sans-serif;
+	color: #fff;
+	text-align: center;
 }
