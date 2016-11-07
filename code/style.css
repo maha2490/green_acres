@@ -59,6 +59,144 @@ img {
 #background_image {
 	margin-top: -0.6%;
 }
+main #one{
+	margin-top: 5%;
+	box-sizing: border-box;
+}
+
+main #one_left{
+	width: 75%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 5%;
+    padding-right: 5%;
+}
+
+main #one_left h1{
+
+}
+
+main #one_left p{
+	text-align: justify;
+	text-justify: auto;
+}
+
+main #one_image_right{
+	width: 25%;
+	float: right;
+	box-sizing: border-box;
+	padding-top: 2.5%;
+	padding-right: 5%;
+}
+
+main #two{
+	margin-top: 5%;
+	box-sizing: border-box;
+}
+
+main #two_image_left{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 2.5%;
+	padding-left: 5%;
+}
+
+main #two_right{
+	width: 75%;
+	float: right;
+	box-sizing: border-box;
+	padding-left: 5%;
+    padding-right: 5%;
+}
+
+main #two_right h1{
+
+}
+
+main #two_right p{
+	text-align: justify;
+	text-justify: auto;
+}
+
+main #three{
+	margin-top: 5%;
+	box-sizing: border-box;
+	padding-left: 5%;
+    padding-right: 5%;
+}
+
+main #three #three_text{
+	box-sizing: border-box;
+
+}
+
+main #three #three_text h1{
+	text-align: center;	
+}
+
+main #three #three_text p{
+	text-align: justify;
+	text-justify: auto;
+}
+
+main #three #three_form{
+	box-sizing: border-box;
+}
+
+main #three #three_form #form_left{
+	box-sizing: border-box;
+	width: 50%;
+	padding-left: 5%;
+	padding-right: 1%;
+	float: left;
+	text-align: right;
+}
+
+main #three #three_form #form_right{
+	box-sizing: border-box;
+	width: 50%;
+	padding-right: 5%;
+	padding-left: 1%;
+	float: right;
+	text-align: left;
+	padding-top: 1em;
+}
+footer{
+	box-sizing: border-box;
+}
+footer #footer_top #footer_left{
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+footer #footer_top #footer_left h4{
+	letter-spacing: .25vw;
+}
+footer #footer_top #footer_center{
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	
+}
+footer #footer_top #footer_right{
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	text-align: center;	
+}
+#footer_right i{
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	padding-top: 4%;
+}
+footer #footer_bottom h6{
+	text-align: center;
+}
 .phone_num_banner {
 	background-color: rgba(255, 255, 255, 0.8);	
 	font-family:'Lato', sans-serif;
@@ -77,5 +215,8 @@ img {
 }
 .phone_num_banner p {
 	text-align: center;
+}
+.fa {
+	padding-left: 0.3%;
 }
 
