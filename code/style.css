@@ -27,7 +27,7 @@ img{
 
 /*everything else*/
 #main_nav {
-	background-color: rgba(255, 255, 255, 0.9);	
+	background-color: rgba(255, 255, 255, 0.8);	
 	position: absolute;
     width: 98vw;
 }
@@ -39,6 +39,7 @@ img{
 	/*font-family: brownShoes;*/
 	color: #E66600;
     font-size: 125%;
+    font-weight: 600;
     letter-spacing: 0.5px;
     padding-right: 3%;
     box-sizing: border-box;
@@ -46,8 +47,4 @@ img{
 #background_image {
 	margin-top: -0.6%;
 }
-.tagline {
-	font-family:'Lato', sans-serif;
-	color: #fff;
-	text-align: center;
-}
+
