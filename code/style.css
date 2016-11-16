@@ -22,6 +22,16 @@ img {
 	display: block;
 	width: 100%;
 }
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Lato', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+p {
+	font-family: 'Gilda Display', serif;
+	font-size: 1vw;
+    font-weight: 100;
+}
 .clearfix {
 	min-height: 100%;
 }
@@ -201,7 +211,7 @@ footer #footer_bottom h6{
 	background-color: rgba(230, 102, 0, 0.8);
     font-family: 'Lato', sans-serif;
     color: #fff;
-    font-size: 1.5vw;
+    /*font-size: 1.5vw;*/
     font-weight: 900;
     letter-spacing: 1.5px;
     text-transform: uppercase;
