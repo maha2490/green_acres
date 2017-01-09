@@ -1,0 +1,255 @@
+/*style.css*/
+
+/* fonts_________________________________________________ */
+@font-face {
+    font-family: brownShoes;
+    src: url(http://www.dafont.com/brown-shoes.font);
+}
+
+/*globals_________________________________________________*/
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	height: 100%;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+img {
+	display: block;
+	width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Lato', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+p {
+	font-family: 'Gilda Display', serif;
+	font-size: 1vw;
+    font-weight: 100;
+}
+.clearfix {
+	min-height: 100%;
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+#container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+/*everything else_________________________________________*/
+#main_nav {
+	background-color: rgba(255, 255, 255, 0.8);	
+	position: absolute;
+    width: 100vw;
+    padding-top: 0.5%;
+}
+#main_nav nav ul li{
+	font-family:'Lato', sans-serif;
+	float: right;
+	padding-left: 3%;
+	list-style: none;
+	/*font-family: brownShoes;*/
+	color: #E66600;
+    font-size: 1vw;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-right: 3%;
+    box-sizing: border-box;
+}
+#background_image {
+	margin-top: -0.6%;
+}
+main #one, 
+main #two {
+	box-sizing: border-box;
+	padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+main #one_left,
+main #two_right {
+	width: 75%;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-right: 11%;
+}
+
+main #one_left h1,
+main #two_right h1,
+main #three #three_text h1 {
+	font-size: 2.2em;
+	margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+main #one_left p,
+main #two_right p,
+main #three #three_text p {
+	text-align: justify;
+	text-justify: auto;
+	line-height: 18px;
+    margin-top: 0;
+}
+
+main #one_image_right{
+	width: 25%;
+	float: right;
+	box-sizing: border-box;
+	padding-top: 2.5%;
+	padding-right: 5%;
+}
+.mower_image {
+	display: inline-block;
+    margin-top: -20%;
+    margin-left: -10%;
+}
+main #two{
+	box-sizing: border-box;
+	background-color: #E66600;
+	color: #fff;
+}
+
+main #two_image_left{
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 2.5%;
+	padding-left: 5%;
+}
+
+/*main #two_right{
+	width: 75%;
+	float: right;
+	box-sizing: border-box;
+	padding-left: 5%;
+    padding-right: 5%;
+}*/
+
+main #two_right h1{
+
+}
+
+main #two_right p{
+	text-align: justify;
+	text-justify: auto;
+}
+.flower_image {
+	width: 75%;
+	margin-left: 10%;
+}
+main #three {
+	margin-top: 5%;
+	box-sizing: border-box;
+	padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+main #three #three_text{
+	box-sizing: border-box;
+
+}
+
+main #three #three_text h1{
+	text-align: center;	
+}
+
+main #three #three_text p{
+	text-align: justify;
+	text-justify: auto;
+}
+
+main #three #three_form{
+	box-sizing: border-box;
+}
+
+main #three #three_form #form_left{
+	box-sizing: border-box;
+	width: 50%;
+	padding-left: 5%;
+	padding-right: 1%;
+	float: left;
+	text-align: right;
+}
+
+main #three #three_form #form_right{
+	box-sizing: border-box;
+	width: 50%;
+	padding-right: 5%;
+	padding-left: 1%;
+	float: right;
+	text-align: left;
+	padding-top: 1em;
+}
+footer{
+	box-sizing: border-box;
+	background-color: #E66600;
+	color: #fff;
+}
+footer #footer_top #footer_left{
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+footer #footer_top #footer_left h4{
+	letter-spacing: .25vw;
+}
+footer #footer_top #footer_center{
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	
+}
+footer #footer_top #footer_right{
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	text-align: center;	
+}
+#footer_right i{
+	box-sizing: border-box;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	padding-top: 4%;
+}
+footer #footer_bottom h6{
+	text-align: center;
+}
+.phone_num_banner {
+	background-color: rgba(230, 102, 0, 1);
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    /*font-size: 1.5vw;*/
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 90%;
+    width: 100%;
+    /* padding-top: 0.5%; */
+    margin-top: -2em;
+}
+.phone_num_banner p {
+	text-align: center;
+}
+.fa {
+	padding-left: 0.3%;
+}
+
