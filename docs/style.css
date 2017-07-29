@@ -227,14 +227,14 @@ footer #footer_left{
 }
 
 .GA_main_logo {
-	margin: 8% 10% 0 18%;
-	width: 80%;
+	margin: 7% 10% 0 24%;
+	width: 70%;
 }
 
 footer #footer_center{
 	box-sizing: border-box;
 	width: 40%;
-	padding-left: 12%;
+	padding-left: 16%;
 	float: left;
 }
 
@@ -253,7 +253,7 @@ footer #footer_right p {
 footer #footer_right{
 	box-sizing: border-box;
 	width: 30%;
-	text-align: center;
+	padding-left: 6%;
 	float: right;
 }
 
@@ -272,10 +272,10 @@ footer #footer_right span{
 
 footer hr {
   border: 0;
-	width: 75%;
+	width: 85%;
   height: 2px;
   background: #333;
-	margin-top: 1%;
+	margin-top: 2%;
 	margin-bottom: 2%;
   opacity: 0.9;
 }
@@ -287,14 +287,14 @@ footer h6{
 }
 
 footer h6 a{
-	text-transform: lowercase;
-	font-size: 0.75vw;
+	/*text-transform: lowercase;
+	font-size: 0.75vw;*/
 	padding: 0 3px;
 }
 
-.facebook, .google, .twitter {
+.social_icons {
 	display: inline-block;
-	width: 16%;
+	width: 18%;
 }
 
 /*animations */

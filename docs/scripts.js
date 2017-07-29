@@ -32,3 +32,10 @@ $(window).scroll(function() {
 			}
 		});
 });
+
+$(".social_icons").mouseenter(function(){
+	$(this).addClass("bounce");
+});
+$(".social_icons").mouseleave(function(){
+	$(this).removeClass("bounce");
+});
