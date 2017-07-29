@@ -11,7 +11,7 @@ html {
 	height: 100%;
 }
 body {
-	margin: 0;
+	margin: 0 !important;
 	height: 100%;
 }
 a {
@@ -47,7 +47,7 @@ p {
 
 /*everything else_________________________________________*/
 #main_nav {
-	background-color: rgba(255, 255, 255, 0.8);	
+	background-color: rgba(255, 255, 255, 0.8);
 	position: absolute;
     width: 100vw;
     padding-top: 0.5%;
@@ -69,7 +69,7 @@ p {
 #background_image {
 	margin-top: -0.6%;
 }
-main #one, 
+main #one,
 main #two {
 	box-sizing: border-box;
 	padding-top: 2%;
@@ -163,7 +163,7 @@ main #three #three_text{
 }
 
 main #three #three_text h1{
-	text-align: center;	
+	text-align: center;
 }
 
 main #three #three_text p{
@@ -212,13 +212,13 @@ footer #footer_top #footer_center{
 	width: 33.33%;
 	float: left;
 	text-align: center;
-	
+
 }
 footer #footer_top #footer_right{
 	box-sizing: border-box;
 	width: 33.33%;
 	float: left;
-	text-align: center;	
+	text-align: center;
 }
 #footer_right i{
 	box-sizing: border-box;
@@ -252,4 +252,3 @@ footer #footer_bottom h6{
 .fa {
 	padding-left: 0.3%;
 }
-
