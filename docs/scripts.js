@@ -6,7 +6,7 @@ $(window).scroll(function() {
 
 		var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideLeft");
+				$(this).addClass("fadeIn");
 			}
 		});
 });
@@ -17,7 +17,18 @@ $(window).scroll(function() {
 
 		var topOfWindow = $(window).scrollTop();
 			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideRight");
+				$(this).addClass("fadeIn");
+			}
+		});
+});
+
+$(window).scroll(function() {
+		$('#three_text').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("fadeIn");
 			}
 		});
 });

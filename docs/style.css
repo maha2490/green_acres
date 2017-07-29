@@ -1,7 +1,7 @@
 /*style.css*/
 
 @import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro');
 /*globals_________________________________________________*/
 html {
 	height: 100%;
@@ -24,9 +24,9 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 2px;
 }
 p {
-	font-family: 'Gilda Display', serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1vw;
-    font-weight: 100;
+  font-weight: 100;
 }
 
 .clearfix:after{
@@ -38,24 +38,37 @@ p {
 	width: 100%;
 	margin: 0 auto;
 }
-
+.gradient {
+	background: #E66600;
+	background: -moz-linear-gradient(left, #E66600 18%, #ff8422 100%);
+	background: -webkit-linear-gradient(left, #E66600 18%,#ff8422 100%);
+	background: linear-gradient(to right, #E66600 18%,#ff8422 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E66600', endColorstr='#ff8422',GradientType=1 );
+}
 header {
-	background-color: rgba(230, 102, 0, 1);
-    font-family: 'Lato', sans-serif;
-    color: #fff;
-    font-size: 1.5vw;
-    font-weight: 900;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    text-align: center;
-    position: fixed;
-    right: 0;
-    top: 4%;
-    width: 100%;
-    margin-top: -2em;
+	/*background-color: rgba(230, 102, 0, 1);*/
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  top: 4%;
+  width: 100%;
+  margin-top: -2em;
+	border-bottom: 2px solid #59ab24;
 }
 header p {
 	text-align: center;
+}
+header h3 {
+	padding-top: 15px;
+}
+header i {
+	padding: 0 5px;
 }
 
 #background_image {
@@ -67,17 +80,17 @@ main #one,
 main #two {
 	box-sizing: border-box;
 	padding-top: 2%;
-    padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 main #one_left,
 main #two_right {
 	width: 75%;
-    float: left;
-    box-sizing: border-box;
-    padding-top: 4%;
-    padding-left: 7%;
-    padding-right: 11%;
+  float: left;
+  box-sizing: border-box;
+  padding-top: 4%;
+  padding-left: 7%;
+  padding-right: 11%;
 }
 
 main #one_left h2,
@@ -91,11 +104,10 @@ main #three #three_text h2 {
 main #one_left p,
 main #two_right p,
 main #three #three_text p {
-	font-family: "Lato";
 	font-size: 1.25vw;
 	text-align: justify;
 	line-height: 150%;
-    margin-top: 0;
+  margin-top: 0;
 }
 
 main #one_image_right{
@@ -106,7 +118,6 @@ main #one_image_right{
 	padding-right: 5%;
 }
 .mower_image {
-	/*visibility: hidden;*/
 	display: inline-block;
   width: 20.5vw;
   height: auto;
@@ -114,7 +125,7 @@ main #one_image_right{
 }
 main #two{
 	box-sizing: border-box;
-	background-color: #E66600;
+	/*background-color: #E66600;*/
 	color: #fff;
 }
 
@@ -140,8 +151,8 @@ main #three {
 	margin-top: 5%;
 	box-sizing: border-box;
 	padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 main #three #three_text{
@@ -206,37 +217,42 @@ footer{
 	box-sizing: border-box;
 	background-color: #E66600;
 	color: #fff;
+	padding: 1% 0;
 }
 
 footer #footer_left{
 	box-sizing: border-box;
-	width: 25%;
-	text-align: center;
+	width: 30%;
 	float: left;
 }
 
-footer #footer_left h5{
-	font-size: 1.75vw;
-}
-
-footer #footer_left h5:hover{
-	color: green;
+.GA_main_logo {
+	margin: 8% 10% 0 18%;
+	width: 80%;
 }
 
 footer #footer_center{
 	box-sizing: border-box;
-	width: 50%;
-	text-align: center;
+	width: 40%;
+	padding-left: 12%;
 	float: left;
 }
 
-footer #footer_center h5{
+footer #footer_center h5,
+footer #footer_right h5 {
 	font-size: 1.25vw;
+	margin: 7% 0 1% 0;
+}
+footer #footer_center p, footer #footer_center a,
+footer #footer_right p {
+	font-size: 1.05vw;
+	letter-spacing: 0.05vw;
+	opacity: 0.8;
 }
 
 footer #footer_right{
 	box-sizing: border-box;
-	width: 25%;
+	width: 30%;
 	text-align: center;
 	float: right;
 }
@@ -254,18 +270,34 @@ footer #footer_right span{
 	padding: 0% 15% 0% 15%;
 }
 
+footer hr {
+  border: 0;
+	width: 75%;
+  height: 2px;
+  background: #333;
+	margin-top: 1%;
+	margin-bottom: 2%;
+  opacity: 0.9;
+}
 footer h6{
 	text-align: center;
-	font-size: 1vw;
-  padding-bottom: 1%;
+	font-size: 0.75vw;
 	margin: 0;
+	opacity: 0.8;
 }
 
 footer h6 a{
 	text-transform: lowercase;
-	font-size: 1.2vw;
+	font-size: 0.75vw;
+	padding: 0 3px;
 }
 
-footer h6 a:hover{
-	color: green;
+.facebook, .google, .twitter {
+	display: inline-block;
+	width: 16%;
+}
+
+/*animations */
+#one_left, #two_right , #three_text {
+	visibility: hidden;
 }
