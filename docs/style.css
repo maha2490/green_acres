@@ -3,7 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
 
 /*globals_________________________________________________*/
-
+html {
+	height: 100%;
+}
+body {
+	margin: 0 !important;
+	height: 100%;
+}
 a {
 	color: inherit;
 	text-decoration: none;
@@ -57,7 +63,7 @@ header p {
 	width: 100vw;
 	height: auto;
 }
-main #one, 
+main #one,
 main #two {
 	box-sizing: border-box;
 	padding-top: 2%;
